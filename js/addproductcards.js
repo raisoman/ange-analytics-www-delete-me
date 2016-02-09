@@ -1,83 +1,83 @@
 var addProductCards = function() {
     document.getElementsByClassName('article-content')[0].innerHTML +=
     '<div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet">\
-        <h4>All game types:</h4>\
+        <h4>Cases:</h4>\
         <div class="mdl-grid index-games-grid">\
             <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">\
                 <div class="mdl-card__title linercard1">\
-                    <h2 class="mdl-card__title-text">Standard</h2>\
+                    <h2 class="mdl-card__title-text">Business Intelligence</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
-                    Game for new employees in container lines, freight forwarders, ports, terminals and supply chain managers.\
+                    At Damco, we implemented a state-of-the-art BI stack, giving them a common performance measurement platform across the organization\
                 </div>\
                 <div class="mdl-card__actions in-bottom">\
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="standard-game.html">\
-                        Get Started\
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="business-intelligence.html">\
+                        Read more\
                     </a>\
                 </div>\
             </div>\
             <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">\
                 <div class="mdl-card__title linercard2">\
-                    <h2 class="mdl-card__title-text">Executive</h2>\
+                    <h2 class="mdl-card__title-text">Analytics</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
-                    Game for board members and senior managers in container shipping lines, freight forwarders, ports and terminals.\
+                    With the use predictive algorithms, we created an interactive forecasting tool for Damco...\
                 </div>\
                 <div class="mdl-card__actions in-bottom">\
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="executive-game.html">\
-                        Get Started\
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="analytics.html">\
+                        Read more\
                     </a>\
                 </div>\
             </div>\
             <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">\
                 <div class="mdl-card__title linercard3">\
-                    <h2 class="mdl-card__title-text">Support Functions</h2>\
+                    <h2 class="mdl-card__title-text">Software Development</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
-                    Ideal for shipping employees in IT, Finance, HR, Communication, Marketing, Procurement, Project Managers and Process Consultants.\
+                    We were the ones who did the heavy-lifting back-end development of the New York Shipping Exchange...\
                 </div>\
                 <div class="mdl-card__actions in-bottom">\
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="support-functions-game.html">\
-                        Get Started\
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="software-development.html">\
+                        Read more\
                     </a>\
                 </div>\
             </div>\
             <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">\
                 <div class="mdl-card__title linercard4">\
-                    <h2 class="mdl-card__title-text">Teambuilding</h2>\
+                    <h2 class="mdl-card__title-text">Training</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
-                    Teambuilding well suited for newly formed departments or mixed project teams.\
+                    In collaboration with Maersk Line and Aalborg University, we developed the Liner Shipping Game<sup>TM</sub>...\
                 </div>\
                 <div class="mdl-card__actions in-bottom">\
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="teambuilding-game.html">\
-                        Get Started\
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="training.html">\
+                        Read more\
                     </a>\
                 </div>\
             </div>\
             <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">\
                 <div class="mdl-card__title linercard5">\
-                    <h2 class="mdl-card__title-text">For Ports</h2>\
+                    <h2 class="mdl-card__title-text">Liner Network Design</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
-                    For port personnel with a need to better understand the container shipping lines.\
+                    In collaboration with Maersk Line, we developed their network optimizer - a strategically differentiating decision support tool...\
                 </div>\
                 <div class="mdl-card__actions in-bottom">\
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="ports-game.html">\
-                        Get Started\
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="linova.html">\
+                        Read more\
                     </a>\
                 </div>\
             </div>\
             <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">\
                 <div class="mdl-card__title  linercard6">\
-                    <h2 class="mdl-card__title-text">Advanced</h2>\
+                    <h2 class="mdl-card__title-text">Stowage</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
-                    Tailor-made sessions matching specific skills and requirements.\
+                    With various partners in the container shipping industry, we developed Angelstow, a next generation stowage tool...\
                 </div>\
                 <div class="mdl-card__actions in-bottom">\
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="advanced-game.html">\
-                Get Started\
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="stowage.html">\
+                Read more\
                     </a>\
                 </div>\
             </div>\
