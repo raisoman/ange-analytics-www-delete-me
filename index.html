@@ -8,7 +8,7 @@
 <meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<title>Ange Optimization · We create optimization solutions for the shipping industry</title>
+<title>Ange · We introduce data-driven decisions in the shipping industry</title>
 <meta name="description" content="A team of engineers experienced in software development, mathematical modeling, ETL and ... container shipping">
 <meta property="og:description" content="We are a team of engineers experienced in software development, mathematical modeling, process optimization and... container shipping. In our network are some of the brightest developers and shipping experts around. If it involves container shipping, we can model it. If a process needs to be changed, we can support it through software and user training.">
 <meta property="og:image" content="favicon/favicon-192x192.png">
@@ -44,7 +44,7 @@
 <div class="ange-header-inner">
 <div class="ange-header-content">
 <img src="images/ange-logo-white.svg" alt="Ange Optimization logo" class="logo-ange">
-<h1 class="animation-el">We create optimization solutions for the shipping industry</h1>
+<h1 class="animation-el">We introduce data-driven decisions in the shipping industry</h1>
 <p class="lead animation-el">Differentiating expertise. Development on tap.</p></div></div>
 <a href="#clients" class="arrow-down"><span class="ion-ios-arrow-down animation-el"></span></a>
 </header>
@@ -127,7 +127,7 @@
 
 <div class="section-container"><div class="container"><article id="services" class="section"><h2 class="text-center">What we can offer</h2>
 <div class="sub-section"><div class="row">
-<div class="col-sm-4"><h4>BI / Analytics</h4>
+<div class="col-sm-4"><h4>BI &amp; Analytics</h4>
 <p>You can't control what you can't measure. We can help you make sense of your data, establishing meaningful, lasting KPIs and processes.</p></div>
 
 <div class="col-sm-4"><h4>Liner Network &amp; Flow</h4><p>In liner shipping, network optimization is the strategical differentiator. This is where the party is and it's hard to get right. We know how.</p></div>
@@ -179,39 +179,39 @@
 <script src="js/lib/svgeezy/svgeezy.min.js"></script>
 <script src="js/site/site.js"></script>
 <script>$(window).bind("load", function() {
-	// Animations
-	$('#loader').velocity('transition.fadeOut', { duration: 200, delay: 1000 });
-	$('.logo-ange').velocity({ top: 0 }, { duration: 600, delay: 1600 });
-	setTimeout(function() {
-		$('.ange-header-content .animation-el').velocity('transition.slideUpIn', { duration: 900, stagger: 300, drag: true });
-	}, 2400);
-	$('.ion-ios-arrow-down').velocity('transition.slideDownIn', { duration: 600, delay: 4000 });
+        // Animations
+        $('#loader').velocity('transition.fadeOut', { duration: 200, delay: 1000 });
+        $('.logo-ange').velocity({ top: 0 }, { duration: 600, delay: 1600 });
+        setTimeout(function() {
+                $('.ange-header-content .animation-el').velocity('transition.slideUpIn', { duration: 900, stagger: 300, drag: true });
+        }, 2400);
+        $('.ion-ios-arrow-down').velocity('transition.slideDownIn', { duration: 600, delay: 4000 });
 
-	var releavedFooter = function() {
-		var scroll = $(window).scrollTop();
-		var headerHeight = $('.ange-header').height();
-		if (scroll <= headerHeight) {
-			$('.revealed-footer').removeClass('active');
-		} else {
-			$('.revealed-footer').addClass('active');
-		}
-	}
+        var releavedFooter = function() {
+                var scroll = $(window).scrollTop();
+                var headerHeight = $('.ange-header').height();
+                if (scroll <= headerHeight) {
+                        $('.revealed-footer').removeClass('active');
+                } else {
+                        $('.revealed-footer').addClass('active');
+                }
+        }
 
-	var deviceType = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? 'touch' : 'scroll';
-	if (deviceType == 'scroll') {
-		releavedFooter();
-	}
-	$(window).scroll(function() {
-		if (deviceType == 'scroll') {
-			releavedFooter();
-		}
-	});
+        var deviceType = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? 'touch' : 'scroll';
+        if (deviceType == 'scroll') {
+                releavedFooter();
+        }
+        $(window).scroll(function() {
+                if (deviceType == 'scroll') {
+                        releavedFooter();
+                }
+        });
 
-	$(window).resize(function() {
-		var sectionHeight = $(window).height();
-		$('.ange-header').height(sectionHeight);
-	});
-	$(window).trigger('resize');
+        $(window).resize(function() {
+                var sectionHeight = $(window).height();
+                $('.ange-header').height(sectionHeight);
+        });
+        $(window).trigger('resize');
 });
 </script>
 </body></html>
