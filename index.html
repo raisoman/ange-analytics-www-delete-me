@@ -1,274 +1,217 @@
-<!DOCTYPE HTML>
-<html lang="da" class="">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="The Liner Shipping Game ">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LinerGame</title>
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.cyan-deep_orange.min.css" />
-    <link rel="stylesheet" href="styles/custom.css" type="text/css" media="screen">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!DOCTYPE html><!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]> <html lang="en-au" class="no-js ie ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-au" class="no-js ie ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-au" class="no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-au" class="no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html><!--<![endif]--><head>
+<script>var _sf_startpt=(new Date()).getTime()</script>
+<meta charset="utf-8"><meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>Ange Optimization · We create optimization solutions for the shipping industry</title>
+<meta name="description" content="A team of engineers experienced in software development, mathematical modeling, ETL and ... container shipping">
+<meta property="og:description" content="We are a team of engineers experienced in software development, mathematical modeling, process optimization and... container shipping. In our network are some of the brightest developers and shipping experts around. If it involves container shipping, we can model it. If a process needs to be changed, we can support it through software and user training.">
+<meta property="og:image" content="favicon/favicon-192x192.png">
+<meta property="og:title" content="Ange Optimization - We create optimization solutions for the shipping industry">
+<meta property="og:url" content="http://www.ange.dk">
+<meta property="og:site_name" content="Ange Optimization">
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60," href="favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="favicon/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="favicon/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="favicon/apple-touch-icon-144x144.png">
+<link href="styles/site.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles/placeholder_polyfill.min.css">
+<!--[if lt IE 9 ]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+<script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');
+</script>
 </head>
+<body id="view-home">
+<div id="loader" class="loader"><div class="spinner"></div></div>
+<div class="view home">
+<header class="ange-header">
+<div class="cf2a"><img src="images/header_02-color.jpg" alt=""><img src="images/header_02-bw.jpg" alt=""></div>
+<div class="ange-header-inner">
+<div class="ange-header-content">
+<img src="images/ange-logo-white.svg" alt="Ange Optimization logo" class="logo-ange">
+<h1 class="animation-el">We create optimization solutions for the shipping industry</h1>
+<p class="lead animation-el">Differentiating expertise. Development on tap.</p></div></div>
+<a href="#clients" class="arrow-down"><span class="ion-ios-arrow-down animation-el"></span></a>
+</header>
 
-<body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <script src="js/addheader.js"></script>
-        <script>addHeader();</script>
-        <main class="mdl-layout__content">
-            <div id="top" class="page-content">
-                <div id="heroimg" class="mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-                    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-typography--text-center full-width-med-size">
-                        <h1 class="mdl-typography--display-4 mdl-color-text--white main-heading ">The Liner<br>Shipping Game<sup> TM</sup></h1>
-                        <h3 class="mdl-color-text--white">Simple. Realistic. Educational. Fun.</h3>
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect cta-btn" onclick="scrollToDiv('game');">
-                            Learn more
-                        </button>
-                    </div>
-                    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet full-width-med-size">
-                        <div class="mdl-grid index-games-grid">
-                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
-                                <div class="mdl-card__title linercard1">
-                                    <h2 class="mdl-card__title-text">Standard</h2>
-                                </div>
-                                <div class="mdl-card__supporting-text">
-                                    Game for new employees in container lines, freight forwarders, ports, terminals and supply chain managers.
-                                </div>
-                                <div class="mdl-card__actions in-bottom">
-                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="standard-game.html">
-                                      Get Started
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
-                                <div class="mdl-card__title linercard2">
-                                    <h2 class="mdl-card__title-text">Executive</h2>
-                                </div>
-                                <div class="mdl-card__supporting-text">
-                                    Game for board members and senior managers in container shipping lines, freight forwarders, ports and terminals.
-                                </div>
-                                <div class="mdl-card__actions in-bottom">
-                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="executive-game.html">
-                                      Get Started
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
-                                <div class="mdl-card__title linercard3">
-                                    <h2 class="mdl-card__title-text">Support Functions</h2>
-                                </div>
-                                <div class="mdl-card__supporting-text">
-                                    Ideal for shipping employees in IT, Finance, HR, Communication, Marketing, Procurement, Project Managers and Process Consultants.
-                                </div>
-                                <div class="mdl-card__actions in-bottom">
-                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="support-functions-game.html">
-                                      Get Started
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
-                                <div class="mdl-card__title linercard4">
-                                    <h2 class="mdl-card__title-text">Teambuilding</h2>
-                                </div>
-                                <div class="mdl-card__supporting-text">
-                                    Teambuilding well suited for newly formed departments or mixed project teams.
-                                </div>
-                                <div class="mdl-card__actions in-bottom">
-                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="teambuilding-game.html">
-                                      Get Started
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
-                                <div class="mdl-card__title linercard5">
-                                    <h2 class="mdl-card__title-text">For Ports</h2>
-                                </div>
-                                <div class="mdl-card__supporting-text">
-                                    For port personnel with a need to better understand the container shipping lines.
-                                </div>
-                                <div class="mdl-card__actions in-bottom">
-                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="ports-game.html">
-                                      Get Started
-                                    </a>
-                                </div>
-                            </div>
+<div id="body"><div class="section-container"><div class="container">
+<article id="clients" class="section"><div class="row"><div class="col-sm-10 col-sm-offset-1">
+<p>We are an integrated team of business types and engineers experienced in software development, mathematical modeling, process optimization and... container shipping. In our network are some of the brightest developers and shipping experts on the planet. If it involves container shipping, we can model it. If the process needs to be changed, we can support it with software and user training.</p>
+<p>We can help you sketch a new process map and implement it; provide BI-as-a-service to guide technology and introduce best practive development principles; deliver field-proven optimization solutions. In short, we can drive a project from conceptual idea to working process. We have over time done this for the likes of:</p>
+<div class="sub-section">
+<img src="images/customers-bw.png" alt="" title="" class="img-responsive hidden-xs">
+<img src="images/customers-bw.png" alt="" title="" class="img-responsive visible-xs"></div></div>
+</div></article><article id="works" class="section">
+<h2 class="text-center">Stories</h2><div class="row"><div class="col-sm-6 col-sm-push-6">
+<div class="work-image">
+<img src="images/header_04-raw.jpg" alt="Angelstow" title="Angelstow"></div></div>
+<div class="col-sm-5 col-sm-pull-6">
+<div class="sub-section">
+<h3>Business Intelligence</h3>
+<p>With the use of state-of-the-art business intelligence technologies, we standardized the performance reporting across the organization for DAMCO, a world-leading logistics provider.</p>
+<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="business-intelligence.html">
+    Read more
+</a>
+</div></div></div>
 
-                            <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">
-                                <div class="mdl-card__title  linercard6">
-                                    <h2 class="mdl-card__title-text">Advanced</h2>
-                                </div>
-                                <div class="mdl-card__supporting-text">
-                                    Tailor-made sessions matching specific skills and requirements.
-                                </div>
-                                <div class="mdl-card__actions in-bottom">
-                                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="advanced-game.html">
-                                      Get Started
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mdl-grid quote-section  mdl-color-text--cyan-300">
-                    <div class="mdl-cell mdl-cell--6-col">
-                        <blockquote>
-                            Extremely educating. It helped us to understand some essential basics, such as the difference between committed and non-committed cargo.
-                        </blockquote>
-                        <cite>- Henri Paukku, Project Manager, MacGregor Cargotec</cite>
-                    </div>
-                    <div class="mdl-cell mdl-cell--6-col">
-                        <blockquote>
-                            I learned a lot from playing the liner shipping game and I learned it fast. It helps you understand the complexities of coordinating between countries and ports and between key personnel groups.
-                        </blockquote>
-                        <cite>- Chris Ellegaard, Professor, Aarhus University</cite>
-                    </div>
-                    <div class="mdl-cell mdl-cell--10-col right-link-container">
-                        <a class="mdl-color-text--grey-600" href="references.html">Read about clients and references..</a>
-                    </div>
-                </div>
-                <div id="game" class="mdl-grid mdl-color--grey-600">
-                    <div class="mdl-cell mdl-cell--12-col mdl-color-text--white article-section">
-                        <h1 class="mdl-typography--text-center">The Liner Shipping game</h1>
-                        <p class="">The Liner Shipping Game
-                            <sup>TM</sup> is a business game that models several core processes of a container liner company. Using containers and vessels built from <span id="lego1">LEGO<sup>TM*</sup></span> bricks, the players execute different functions, specifically stowage planning, cargo uptake management and terminal cargo handling.</p>
-                        <p>
-                            <blockquote>
-                                Extremely educating. It helped us to understand some essential basics, such as the difference between committed and non-committed cargo. It also provided insight on the importance smooth cooperation of the whole shipping network, not only its individual parts.
-                            </blockquote>
-                            <cite>- Henri Paukku, Project Manager, MacGregor Cargotec</cite>
-                            </p>
-                        <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Request%20info';" class="mdl-button  mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                            Request more info
-                        </button>
-                        &nbsp;
-                        <button onClick="window.location.href='mailto:contact@linergame.com?Subject=Book%20game%20session';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                            Book a session
-                        </button>
-                        <div class="article-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid">
-                            <h3 class="mdl-cell mdl-cell--12-col">The Setup </h3>
-                            <div class="mdl-cell mdl-cell--6-col">
-                                <p>The Liner Shipping Game<sup>TM</sup> offers a team of people (ideally 12) the unique opportunity to simulate and experience, in a relatively short time, how a modern complex container shipping line runs its business using vessels and containers made out of <span id="lego2">LEGO<sup>TM *</sup></span> bricks combined with a paper based flow of documentation in a small scale setup. During the game, the team will take responsibility for core commercial and operational tasks of a container shipping line, including vital terminal tasks, and through teamwork they can maximize carrier profitability. Each player gets to play all the different roles in the game by rotating and get the opportunity to collaborate directly with a number of the other participants. Depending on the prior experience of the players a full game takes between a half and a complete day to play. Shorter sessions can be arranged by simply reducing the number of rounds to be played. As the gameplay is quite intense, it can be of interest to combine a session with lectures on revenue management, liner operations, container stowage and more.</p>
-                            </div>
-                            <div class="mdl-cell mdl-cell--6-col"><img src="images/turku.jpg"></div>
-                        </div>
-                        <blockquote>The Liner Shipping Game gives a great glimpse into some of the core operational and revenue management principles in container shipping. During the game newcomers to the container shipping industry and people working in the logistics sector in general will learn and experience some of what goes on behind the scenes in a container line. It’s great for a team day out of the office building shared knowledge and understanding.</blockquote><cite>- Mikkel T. I. Hansen, General Manager, Maersk Line</cite>
-                        <div class="article-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-grid">
-                            <h3 class="mdl-cell mdl-cell--12-col">The Value</h3>
-                            <div class="mdl-cell mdl-cell--6-col">
-                                <p>The educational game provides participants with a realistic insight into the complex commercial and operational fundamentals of Liner Shipping. An educational session provides the following value:</p>
-                                <ul>
-                                    <li>
-                                        <p>Hands-on experience with customer service, booking uptake, vessel stowage, port operations and asset utilization tasks and their interplay</p>
-                                    </li>
-                                    <li>
-                                        <p>An understanding of the value of process standards and data discipline</p>
-                                    </li>
-                                    <li>
-                                        <p>An understanding of the importance of a network based and data driven approach to decision making for improving carrier profitability</p>
-                                    </li>
-                                    <li>
-                                        <p>Insight in to the role modern OR based IT systems can provide</p>
-                                    </li>
-                                    <li>
-                                        <p>Instruction / training provided by industry experts</p>
-                                    </li>
-                                    <li>
-                                        <p>Building team spirit</p>
-                                    </li>
-                                </ul>
-                                <p>The game can add value to both new and experienced employees. A range of standard simulation-based training sessions are offered as per below table.</p>
-                            </div>
-                            <div class="mdl-cell--6-col"><img class="mdl-cell--12-col" src="images/header2.jpg">
-                                <blockquote class="mdl-cell--12-col mdl-color-text--cyan-200">Great insight! The game provides great insight in the complexity of liner shipping companies, both operational as well as commercial. In the various roles of the virtual liner shipping company you really get a feeling for the complexity each role is dealing with. Collaboration becomes vital! Given the monetary aspects is also fun to do since the outcome is a direct result of team effort.</blockquote>
-                                <cite class="mdl-cell--12-col mdl-color-text--cyan-200"> - Floris de Haan, Air Transport Expert, ORTEC Consulting Group</cite>
-                            </div>
-                            <div class="mdl-cell--12-col margin-top-30">
+<hr>
+<div class="row">
+<div class="col-sm-6"><div class="work-image">
+<img src="images/linova.jpg"></div></div><div class="col-sm-5 col-sm-push-1">
+<div class="sub-section">
+<h3>Analytics</h3>
+<p>With the use predictive analysis algorithms, we created an interactive forecasting tool for DAMCO.</p>
+<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="analytics.html">
+    Read more
+</a>
+</div></div></div>
 
-                                <p>Bespoke company courses, training and game sessions can also be offered. For further information about the game and related training sessions, please contact us by mail or phone.</p>
-                            </div>
-                            <table class="mdl-data-table mdl-js-data-table" border="1">
-                                <tr>
-                                    <th rowspan="2" class="mdl-data-table__cell--non-numeric">Training / Game Session</th>
-                                    <th rowspan="2" class="mdl-data-table__cell--non-numeric">Duration</th>
-                                    <th rowspan="2" class="mdl-data-table__cell--non-numeric">Lecturing Included</th>
-                                    <th colspan="3" class="mdl-data-table__cell--non-numeric">Game Versions</th>
-                                </tr>
-                                <tr>
-                                    <td class="mdl-data-table__cell--non-numeric">Standard</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Expanded</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Advanced
-                                        <br>OR/IT-based</td>
-                                </tr>
-                                <tr>
-                                    <th>Fundamentals of Liner Shipping</th>
-                                    <td class="mdl-data-table__cell--non-numeric">1 day</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Yes</td>
-                                    <td class="mdl-data-table__cell--non-numeric">X</td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th>Fundamentals of Liner Shipping</th>
-                                    <td class="mdl-data-table__cell--non-numeric">2 days</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Yes</td>
-                                    <td class="mdl-data-table__cell--non-numeric">X</td>
-                                    <td class="mdl-data-table__cell--non-numeric">X</td>
-                                    <td class="mdl-data-table__cell--non-numeric"></td>
-                                </tr>
-                                <tr>
-                                    <th>Commercial and Operational
-                                        <br>Optimization in Liner Shipping</th>
-                                    <td class="mdl-data-table__cell--non-numeric">2-3 days</td>
-                                    <td class="mdl-data-table__cell--non-numeric">Yes</td>
-                                    <td class="mdl-data-table__cell--non-numeric">X</td>
-                                    <td class="mdl-data-table__cell--non-numeric">X</td>
-                                    <td class="mdl-data-table__cell--non-numeric">X</td>
-                                </tr>
-                            </table>
-                            <div class="mdl-cell--12-col margin-top-30">
-                                <p>Features of expanded game versions:</p>
-                                <ul>
-                                    <li>
-                                        <p>Check for equipment availability at booking stage</p>
-                                    </li>
-                                    <li>
-                                        <p>Repositioning of equipment / empties by terminal operators / depot managers</p>
-                                    </li>
-                                    <li>
-                                        <p>Additional capacity / stowage constraints – Weight, Crane Splits, Dangerous Cargo</p>
-                                    </li>
-                                    <li>
-                                        <p>Contingencies – Cut and Run</p>
-                                    </li>
-                                    <li>
-                                        <p>Downfalls / No-shows</p>
-                                    </li>
-                                    <li>
-                                        <p>Vessel Sharing Agreements</p>
-                                    </li>
-                                    <li>
-                                        <p>Alternative market scenarios</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p class="footnote">*LEGO<sup>TM</sup> is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site.</p>
-                    </div>
-                </div>
-        </main>
-        <div class="mdl-tooltip" for="lego1">LEGO<sup>TM</sup> is a trademark of the LEGO Group of companies
-            <br>which does not sponsor, authorize or endorse this site.
-        </div>
-        <div class="mdl-tooltip" for="lego2">LEGO<sup>TM</sup> is a trademark of the LEGO Group of companies
-            <br>which does not sponsor, authorize or endorse this site.
-        </div>
-    </div>
-    <script src="js/material.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/addfooter.js"></script>
-    <script>addFooter();</script>
-</body>
-</html>
+<hr><div class="row">
+<div class="col-sm-6 col-sm-push-6"><div class="work-image">
+<img src="images/boxes.jpg"></div></div>
+<div class="col-sm-5 col-sm-pull-6">
+<div class="sub-section">
+<h3>Software Development</h3>
+<p>We teamed up with the people behind the New York Shipping Exchange to implement the back-end of the platform. It's all about enforceable shipping contracts and could revolutionize the industry</p>
+<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="software-development.html">
+    Read more
+</a>
+</div></div></div>
+
+<hr><div class="row">
+<div class="col-sm-6"><div class="work-image">
+<img src="images/linergame.jpg"></div></div>
+<div class="col-sm-5 col-sm-push-1"><div class="sub-section">
+<h3>Process Improvement</h3>
+<p>Implementing our solutions sometimes lead to drastic process improvements. That's great. But it also requires significant change management efforts. In order to engage and facilitate change, we developed the Liner Shipping Game in collaboration with Maersk Line and Aalborg University. It's a tabletop game using Lego bricks to illustrate the fundamental processes of liner shipping - and how to optimize them. Educational and fun.</p>
+<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="process-improvement.html">
+    Read more
+</a>
+</div></div></div>
+
+<hr><div class="row"><div class="col-sm-6 col-sm-push-6"><div class="work-image conti">	<img src="images/linova.jpg"></div></div><div class="col-sm-5 col-sm-pull-6"><div class="sub-section">
+<h3>Network Optimization</h3>
+<p>We worked closely with Maersk Line to create their Network Evaluator Tool, a container flow and network optimization system based on our Linova engine. The tool is now the work horse of their world class network design department.</p>
+<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="linova.html">
+    Read more
+</a>
+</div></div></div>
+
+<hr><div class="row"><div class="col-sm-6">
+<div class="work-image sydjs"><img src="images/angelstow.jpg"></div></div><div class="col-sm-5 col-sm-push-1"><div class="sub-section">
+<h3>Stowage</h3>
+<p>We teamed up with a number of carriers to create a modern, simple and powerful container stowage system - Angelstow, giving them an efficient and flexible stowage planning processes. We then open sourced the core of it and it is now being adopted around the world.</p>
+<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="stowage.html">
+    Read more
+</a>
+</div></div></div>
+
+</article></div></div>
+
+<article id="call-to-action" class="section">
+
+<div class="section-container"><div class="container"><article id="services" class="section"><h2 class="text-center">What we can offer</h2>
+<div class="sub-section"><div class="row">
+<div class="col-sm-4"><h4>BI / Analytics</h4>
+<p>You can't control what you can't measure. We can help you make sense of your data, establishing meaningful, lasting KPIs and processes.</p></div>
+
+<div class="col-sm-4"><h4>Liner Network &amp; Flow</h4><p>In liner shipping, network optimization is the strategical differentiator. This is where the party is and it's hard to get right. We know how.</p></div>
+
+<div class="col-sm-4"><h4>Stowage Optimization</h4>
+<p>Having hanged around with top stowage planners and built tools for them for more than a decade, we've learnt the dos and don'ts.</p></div></div></div>
+
+<div class="sub-section"><div class="row">
+<div class="col-sm-4"><h4>Process Mapping</h4><p>Know where you're going. Mapping a business' processes allows to understand the challenges and make the decisions data-driven.</p></div>
+
+<div class="col-sm-4"><h4>Need to change?</h4><p>From process sketch and prototype, to software MVP and scale. We can take a process improvement idea end to end with our team and yours.</p></div>
+
+<div class="col-sm-4"><h4>R&amp;D / Speaking</h4><p>Constant R&amp;D is the engine of our company. So we naturally love sharing what we learn by getting up and speaking in front of our peers.</p></div></div></div></article>
+</div></div></div>
+
+<div class="revealed-footer"><div class="heading text-center">
+<h4 class="mb-1">Try it out.</h4><ul class="list-unstyled list-inline"><li>Game-changing technologies</li><li>&middot;</li>
+<li>Designed in Copenhagen</li>
+<li>&middot;</li>
+<li>Used globally</li></ul></div><div id="yard-analytics" class="opensource-app text-center">
+
+<h3 class="section-title mb-1">
+<div class="app-logo"><img src="images/angelstow-logo.svg" alt="Angelstow logo" width="50" height="50"></div>
+<div>Angelstow</div></h3>
+<p class="mb-2">Open source stowage</p><p class="mb-0"><a href="http://angelstow.net" title="View the Angelstow website (new window)" target="_blank" class="btn btn-empty btn-empty--xs btn-empty--inverted">Learn more</a></p></div><div id="touchstone" class="opensource-app text-center">
+<h3 class="section-title mb-1">
+<div class="app-logo">
+<img src="images/linergame-logo-square.png" alt="Linergame logo" width="50" height="50"></div><div>The Liner Shipping Game</div></h3><p class="mb-2">Simple. Realistic. Educational. Fun.</p>
+<p class="mb-0"><a href="http://linergame.com" title="View the Liner Game website (new window)" target="_blank" class="btn btn-empty btn-empty--xs btn-empty--inverted">Learn more</a></p></div>
+<div id="footer"><div class="container"><div class="row">
+<div class="col-sm-3">
+<a href="/" title="Ange Optimization" class="logo hidden-xs"><img src="images/ange-logo.png" alt="Ange Optimization logo" width="220"></a>
+<a href="/" title="Ange Optimization" class="logo visible-xs"><img src="images/ange-logo.png" alt="Ange Optimization logo" width="120"></a>
+</div>
+<div class="col-sm-6">
+<p class="ange-address hidden-xs"><a href="http://maps.google.com/maps?daddr=Tagensvej+188,+2400+København+NV" title="Get directions using Google maps" target="_blank" class="text-body text-sm">Tagensvej 188, 1. DK-2400 Copenhagen NV, Denmark</a>&nbsp;&middot;&nbsp;<a href="mailto:contact@ange.dk" class="text-body text-sm">contact@ange.dk</a></p>
+<p class="ange-address visible-xs"><a href="http://maps.google.com/maps?daddr=Tagensvej+188,+2400+København+NV" title="Get directions using Google maps" target="_blank" class="text-body text-sm">Tagensvej 188, 1. DK-2400 Copenhagen NV, Denmark</a><br><a href="mailto:hello@ange.dk" class="text-body text-sm">contact@ange.dk</a></p></div>
+
+</div></div></div></div></div>
+
+</div>
+
+<script src="js/lib/jquery/jquery-1.11.1.min.js"></script>
+<script src="js/lib/bootstrap/bootstrap-3.2.0.min.js"></script>
+<script src="js/lib/velocity/velocity.js"></script>
+<script src="js/lib/velocity/velocity.ui.js"></script>
+<script src="js/lib/html5-placeholder-polyfill/placeholder_polyfill.jquery.min.combo.js"></script>
+<script src="js/lib/validation/jquery.validate.js"></script>
+<script src="js/lib/svgeezy/svgeezy.min.js"></script>
+<script src="js/site/site.js"></script>
+<script>$(window).bind("load", function() {
+	// Animations
+	$('#loader').velocity('transition.fadeOut', { duration: 200, delay: 1000 });
+	$('.logo-ange').velocity({ top: 0 }, { duration: 600, delay: 1600 });
+	setTimeout(function() {
+		$('.ange-header-content .animation-el').velocity('transition.slideUpIn', { duration: 900, stagger: 300, drag: true });
+	}, 2400);
+	$('.ion-ios-arrow-down').velocity('transition.slideDownIn', { duration: 600, delay: 4000 });
+
+	var releavedFooter = function() {
+		var scroll = $(window).scrollTop();
+		var headerHeight = $('.ange-header').height();
+		if (scroll <= headerHeight) {
+			$('.revealed-footer').removeClass('active');
+		} else {
+			$('.revealed-footer').addClass('active');
+		}
+	}
+
+	var deviceType = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? 'touch' : 'scroll';
+	if (deviceType == 'scroll') {
+		releavedFooter();
+	}
+	$(window).scroll(function() {
+		if (deviceType == 'scroll') {
+			releavedFooter();
+		}
+	});
+
+	$(window).resize(function() {
+		var sectionHeight = $(window).height();
+		$('.ange-header').height(sectionHeight);
+	});
+	$(window).trigger('resize');
+});
+</script>
+</body></html>

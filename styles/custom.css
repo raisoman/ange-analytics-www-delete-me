@@ -7,7 +7,7 @@ lighter orange/yellow: #E8A710
 */
 
 .mdl-layout__header {
-    background-color: black;
+    background-color: #000040;
 }
 
 h1 {
@@ -107,7 +107,7 @@ img {
 }
 
 .linercard2 {
-    background: #E8A710;
+    background: rgb(0, 188, 212);
 }
 
 .linercard3 {
@@ -123,7 +123,7 @@ img {
 }
 
 .linercard6 {
-    background: rgb(0, 188, 212);
+    background: #E8A710;
 }
 
 .article-section {
