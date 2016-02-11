@@ -66,7 +66,7 @@
                         <div class="row">
                             <div class="col-sm-10 col-sm-offset-1">
                                 <p>We are an integrated team of business types and engineers experienced in software development, mathematical modeling, process optimization and... container shipping. In our network are some of the brightest developers and shipping experts on the planet. If it involves container shipping, we can model it. If the process needs to be changed, we can support it with software and user training.</p>
-                                <p>We can help you sketch a new process map and implement it; provide BI-as-a-service to guide technology and introduce best practive development principles; deliver field-proven optimization solutions. In short, we can drive a project from conceptual idea to working process. We have over time done this for the likes of:</p>
+                                <p>We can help you sketch a new process map and implement it; provide BI-as-a-service to guide technology and introduce best practice development principles; deliver field-proven optimization solutions. In short, we can drive a project from conceptual idea to working process. We have over time done this for the likes of:</p>
                                 <div class="sub-section">
                                     <img src="images/customers-bw.png" alt="" title="" class="img-responsive hidden-xs">
                                     <img src="images/customers-bw.png" alt="" title="" class="img-responsive visible-xs">
@@ -292,7 +292,7 @@
             }, 2400);
             $('.ion-ios-arrow-down').velocity('transition.slideDownIn', { duration: 600, delay: 4000 });
 
-            var releavedFooter = function() {
+            var revealedFooter = function() {
                     var scroll = $(window).scrollTop();
                     var headerHeight = $('.ange-header').height();
                     if (scroll <= headerHeight) {
@@ -304,11 +304,11 @@
 
             var deviceType = /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? 'touch' : 'scroll';
             if (deviceType == 'scroll') {
-                    releavedFooter();
+                    revealedFooter();
             }
             $(window).scroll(function() {
                     if (deviceType == 'scroll') {
-                            releavedFooter();
+                            revealedFooter();
                     }
             });
 
