@@ -10,18 +10,17 @@ var addFooter = function() {
         </div>\
         <div class="mdl-mega-footer--middle-section">\
             <address class="mdl-typography--font-light address">\
-            <p>LinerGame.com<br>\
+            <p>Ange Analytics &amp; Optimization<br>\
             Tagensvej 188, 1<br>\
             DK-2400 Copenhagen NV<br>\
             Denmark<br>\
             Phone: +45 4141 8228<br>\
-            <a href="mailto:contact@linergame.com" target="_top">contact@linergame.com</a>\
+            <a href="mailto:contact@ange.dk" target="_top">contact@ange.dk</a>\
             </p>\
     </address>\
         </div>\
         <div class="mdl-mega-footer--bottom-section">\
             <a class="mdl-typography--font-light" href="about.html">About</a>\
-            <a class="mdl-typography--font-light" href="contact.html">Contact</a>\
         </div>\
     </footer>'
 };
