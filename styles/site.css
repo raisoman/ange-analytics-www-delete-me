@@ -528,28 +528,6 @@ blockquote ol: last-child {
     margin-bottom: 0 !important;
 }
 
-.loader {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    text-align: center;
-    width: 24px;
-    height: 24px;
-    margin-left: -12px;
-    z-index: 999;
-}
-
-.loader .spinner {
-    background: url('../images/loader.png') left top / cover no-repeat;
-    width: 24px;
-    height: 24px;
-    display: block;
-    margin: auto;
-    -webkit-animation: spin 1s infinite linear;
-    -o-animation: spin 1s infinite linear;
-    animation: spin 1s infinite linear;
-}
-
 .form-group: nth-of-type(2n) {
     background: #F9F9F9;
 }

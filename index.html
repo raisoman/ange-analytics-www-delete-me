@@ -40,10 +40,6 @@
 <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
 </head>
 <body id="view-home">
-    <div id="loader" class="loader">
-        <div class="spinner">
-        </div>
-    </div>
     <div class="view home">
         <header class="ange-header">
             <div class="cf2a">
@@ -282,12 +278,10 @@
     <script src="js/lib/bootstrap/bootstrap-3.2.0.min.js"></script>
     <script src="js/lib/velocity/velocity.js"></script>
     <script src="js/lib/velocity/velocity.ui.js"></script>
-    <script src="js/lib/validation/jquery.validate.js"></script>
     <script src="js/lib/svgeezy/svgeezy.min.js"></script>
     <script src="js/site/site.js"></script>
     <script>$(window).bind("load", function() {
             // Animations
-            $('#loader').velocity('transition.fadeOut', { duration: 200, delay: 1000 });
             $('.logo-ange').velocity({ top: 0 }, { duration: 600, delay: 1600 });
             setTimeout(function() {
                     $('.ange-header-content .animation-el').velocity('transition.slideUpIn', { duration: 900, stagger: 300, drag: true });

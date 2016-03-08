@@ -54,27 +54,4 @@ $(window).bind("load", function() {
 		$("#thankyou-message .icon").velocity("transition.bounceIn", { duration: 800, delay: 400 });
 		$("#thankyou-message .animation-el").velocity("transition.slideLeftBigIn", { duration: 800, stagger: 100 });
 	}
-
-	// Contact form validation
-	// ------------------------------
-	$(".contact-form form").validate({
-		rules: {
-			name: {
-				required: true
-			},
-			email: {
-				required: true,
-				email: true
-			},
-			message: {
-				required: true
-			}
-		},
-		messages: {
-			name: "Please enter your name",
-			email: "Please enter a valid email address",
-			message: "Please enter your message"
-		}
-	});
-
 });
