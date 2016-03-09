@@ -20,3 +20,9 @@ Adding extra quotes on game pages: See standard-game.html:
 </div>
 
 ```
+
+### Material design icons guide
+http://google.github.io/material-design-icons/
+
+### Google webfont helper (to include extra fonts)
+https://google-webfonts-helper.herokuapp.com/fonts
