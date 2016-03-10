@@ -2,7 +2,7 @@ var addFooter = function() {
     document.getElementsByTagName('main')[0].innerHTML += '<footer class="mdl-mega-footer">\
         <div class="mdl-mega-footer--top-section">\
             <div class="mdl-mega-footer--right-section">\
-                <a class="mdl-typography--font-light" href="#" onclick="scrollToDiv(\'top\')">\
+                <a class="mdl-typography--font-light" href="#" onclick="scrollToDiv(\'content\')">\
         Back to Top\
         <i class="material-icons">expand_less</i>\
         </a>\

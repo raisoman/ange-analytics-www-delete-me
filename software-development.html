@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="da" class="">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +15,9 @@
 <body class="full-bg ports-bg">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <script src="js/addheader.js"></script>
-        <script>addHeader();</script>
+        <script>
+            addHeader();
+        </script>
         <main class="mdl-layout__content">
 <!--         Note: the content id below serves as an anchor point for styling the page with styleMain() -->
             <div id="content" class="page-content">
@@ -25,19 +28,25 @@
                     <h2>Case: Building NYSHEX</h2>
                     <p>In 2015 we started the development of NYSHEX, the New York Shipping Exchange - a platform aimed at introducing enforceable contracts in the container shipping industry.</p>
                     <p>Our role was to kick-start the development process and lay out the foundations of the system.</p>
-                    <h3>Technology Stack</h3>
-                    <h4>Back-end</h4>
+                    <h3 class="small-margin-h">Technology Stack</h3>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <h4 class="no-margin-top">Back-end</h4>
                     <ul>
                         <li>AWS / Debian</li>
                         <li>JBoss / Java</li>
                         <li>Mysql</li>
                     </ul>
-                    <h4>Front-end</h4>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col no-margin-top">
+                    <h4 class="no-margin-top">Front-end</h4>
                     <ul>
                         <li>Angular JS</li>
                         <li>Javascript</li>
                     </ul>
-                    <h4>Testing</h4>
+                </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <h4 class="no-margin-top">Testing</h4>
                     <ul>
                         <li>Selenium</li>
                         <li>Arquillian / JUnit</li>
@@ -57,4 +66,5 @@
         addFooter();
     </script>
 </body>
+
 </html>
