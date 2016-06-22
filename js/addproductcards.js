@@ -34,7 +34,7 @@ var addProductCards = function() {
                     <h2 class="mdl-card__title-text">Software Development</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
-                    We were the ones who did the heavy-lifting back-end development of the New York Shipping Exchange...\
+                    Automation and data-driven decision within air-to-air refueling...\
                 </div>\
                 <div class="mdl-card__actions in-bottom">\
                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="software-development.html">\
