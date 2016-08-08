@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="154"
+   height="154"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ange-logo-bw.svg"
+   inkscape:export-filename="/home/nicolas/ange/ange-analytics-www/images/ange-logo-bw.png"
+   inkscape:export-xdpi="88.831169"
+   inkscape:export-ydpi="88.831169">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-50.645188"
+     inkscape:cy="130.68428"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="659"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-112.64666,-391.20603)">
+    <g
+       id="g4217"
+       transform="translate(9.3810503,6.9096128)">
+      <ellipse
+         ry="64.343513"
+         rx="65.303864"
+         cy="461.29642"
+         cx="180.26561"
+         inkscape:export-ydpi="1.3374089"
+         inkscape:export-xdpi="1.3374089"
+         inkscape:export-filename="/home/nicolas/Desktop/logosimple.png"
+         id="path2336"
+         style="fill:none;fill-opacity:0;stroke:#ffffff;stroke-width:3.68704844;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         style="font-size:48px;display:inline;fill:none;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.92919445;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:none"
+         d="m 178.7262,492.32197 c 11.20011,-0.10852 7.02801,-10.76004 5.08187,-17.53978 -1.36957,-4.99685 -3.75388,-7.99454 -3.5038,-11.69925 1.17249,-4.65394 1.27123,-6.43014 -1.37092,-7.49696 -4.78894,-2.19486 -9.18498,-2.12407 -12.90262,-10.99398 -3.04761,-6.13829 -4.85838,-15.83176 -13.75135,-14.15495"
+         id="path2160"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="/home/nicolas/0work/ange/logo/faces.ico"
+         inkscape:export-xdpi="1.3374089"
+         inkscape:export-ydpi="1.3374089" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/nicolas/0work/ange/logo/faces.ico"
+         style="font-size:48px;display:inline;fill:none;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.92919445;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:none"
+         d="m 197.14334,492.34771 c 11.20024,-0.10851 7.02804,-10.76005 5.08194,-17.5398 -1.36956,-4.99684 -3.75387,-7.99453 -3.50382,-11.69922 1.17252,-4.65396 1.27123,-6.43015 -1.37092,-7.49699 -4.78887,-2.19487 -9.18495,-2.12405 -12.90257,-10.99395 -3.04766,-6.13832 -4.85846,-15.83179 -13.7514,-14.15499"
+         id="path2162"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-xdpi="1.3374089"
+         inkscape:export-ydpi="1.3374089" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:68px;font-family:'Bitstream Vera Sans';fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:1.70000005;stroke-opacity:1"
+       x="149.60287"
+       y="409.34613"
+       id="text3703"><tspan
+         sodipodi:role="line"
+         id="tspan3705"
+         x="149.60287"
+         y="409.34613"
+         style="stroke-width:1.70000005" /></text>
+  </g>
+</svg>
