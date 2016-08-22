@@ -5,7 +5,7 @@ var addProductCards = function() {
         <div class="mdl-grid index-games-grid">\
             <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">\
                 <div class="mdl-card__title linercard1">\
-                    <h2 class="mdl-card__title-text">Business Intelligence</h2>\
+                    <h2 class="mdl-card__title-text">BI and Analytics</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
                     At Damco, we implemented a state-of-the-art BI stack, giving them a common performance measurement platform across the organization\
@@ -18,14 +18,14 @@ var addProductCards = function() {
             </div>\
             <div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell mdl-cell--4-col mdl-cell--4-col-phone is-relative">\
                 <div class="mdl-card__title linercard2">\
-                    <h2 class="mdl-card__title-text">Analytics</h2>\
+                    <h2 class="mdl-card__title-text">Data Visualization</h2>\
                 </div>\
                 <div class="mdl-card__supporting-text">\
-                    With the use predictive algorithms, we created an interactive forecasting tool for Damco...\
+                    Providing transparency in data by using state-of-the art visualization technologies\
                 </div>\
                 <div class="mdl-card__actions in-bottom">\
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="analytics.html">\
-                        Read more\
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="visualization.html">\
+                        To the gallery\
                     </a>\
                 </div>\
             </div>\
