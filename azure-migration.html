@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="da" class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="About The Liner Shipping Game ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Azure Migration</title>
+    <link type="text/css" rel="stylesheet" href="styles/fonts.css" media="screen">
+    <link href="styles/material.cyan-deep_orange.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/custom.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="styles/font-awesome.css" type="text/css" media="screen">
+</head>
+
+<body class="full-bg about-bg">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <script src="js/addheader.js"></script>
+        <script>addHeader();</script>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid ">
+                <div class="mdl-cell mdl-cell--12-col mdl-color-text--grey-800 article-section">
+                    <div class="article-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800">
+<h1>Azure Migration</h1>
+<p>A large Danish corporation used a traditional Microsoft BI stack to produce daily and monthly reports. The availability of data and self-service tools increased significantly the number of reports generated daily, weekly and monthly. The infrastructure could not provide the required capacity. Reports were refreshed less frequently and end of month processing was carefully planned to allow the reports to be completed on-time.</p>
+<p>Hosting was off-shored (IaaS) and difficult to maintain.  The company noticed that smaller Azure IaaS hosts were several times faster than their in-house facilities. VMWare and SAN performance were possibly misconfigured but the shortage of specialists made diagnostic and resolution difficult.</p>
+
+<img src="images/traditionalbiarch.png" alt="Traditional BI Architecture" style="float:right;width:402px;">
+
+<h2>Situation</h2>
+<p>Cloud technology was selected as their future platform. A small day to day footprint with end-of-the-month scaling was advantageous over the current IaaS solution. As the current ETL was using the BI Microsoft Stack, the Azure cloud offerings were selected. It was decided to use a Data Lake to store the data, the Data Factory to ingest the source data and the Data Lake Analytics to replace the ETL in the current landscape. The final goal was to completely eliminate the IaaS hosts.</p>
+
+<h2>Technology</h2>
+<p>The source systems were modified to feed the Data Factory with streams of data. The data was simply stored as large BLOBs in the Data Lake. The CSV and Excel files were also stored as a set of BLOBs.</p>
+
+<img src="images/azuremigration.png" alt="Azure Migration Diagram">
+
+<p>The SSIS ETL were converted to U-SQL. U-SQL offers a semantic layer that is similar to TSQL.</p>
+<p>The result of the ETL were placed in an Azure SQL database and the newly available Azure cube server (SSAS on PaaS). This mechanism was used as nearly all Self-Service dashboard accept these sources of information.</p>
+<p>The scheduling of the Data Factory and U-SQL jobs was done using the Azure Scheduler.</p>
+
+<h2>Process</h2>
+<p>A POC with a medium complexity ETL was used to evaluate the complete project length and establish feasibility. Conversion time for such POC was 2 man weeks.</p>
+
+<h2>Team</h2>
+<p>The SSIS team were trained in converting the TSQL code into U-SQL. It takes about 1 day for each developer to learn how to convert TSQL into U-SQL.</p>
+
+<h2>Results</h2>
+<p>The migration is not completed yet but already the performance is fast and stable. The PaaS cost is lower than the IaaS costs and the performance trouble shooting is not required anymore. Several developer resources can now be allocated in building new functionality instead of support activities.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/material.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/addfooter.js"></script>
+    <script>addFooter(); addProductCards();</script>
+</body>
+
+</html>
