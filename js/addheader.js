@@ -19,6 +19,7 @@ var addHeader = function() {
             <a class="mdl-navigation__link" href="business-intelligence.html">Business Intelligence</a>\
             <a class="mdl-navigation__link" href="process-improvement.html">Process Improvement</a>\
             <a class="mdl-navigation__link" href="linova.html">Network Optimization</a>\
+			<a class="mdl-navigation__link" href="NLP.html">Natural Language Programming</a>\
             <a class="mdl-navigation__link" href="stowage.html">Stowage</a>\
         </nav>\
     </div>';
