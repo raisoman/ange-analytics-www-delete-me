@@ -12,6 +12,9 @@ var addHeader = function() {
             <a class="mdl-navigation__link" href="about.html">About us</a>\
             <div class="drawer-separator"></div>\
             <span class="mdl-navigation__link mdl-color-text--cyan-400" href="">Stories</span>\
+            <a class="mdl-navigation__link" href="angemark.html">AngeMark</a>\
+            <a class="mdl-navigation__link" href="alice.html">Alice</a>\
+            <a class="mdl-navigation__link" href="gdpr.html">GDPRsee</a>\
             <a class="mdl-navigation__link" href="azure-migration.html">Azure Migration</a>\
             <a class="mdl-navigation__link" href="visualization-case.html">Data Visualization</a>\
             <a class="mdl-navigation__link" href="big-data-for-dw.html">Big data for DW</a>\
