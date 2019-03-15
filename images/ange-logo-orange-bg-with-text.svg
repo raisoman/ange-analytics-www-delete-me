@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="516.03009"
+   height="151.38396"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="ange-logo-orange-bg-with-text.svg"
+   inkscape:export-filename="/home/nicolas/ange.dk-new/favicon/apple-touch-icon-152x152.png"
+   inkscape:export-xdpi="88.831169"
+   inkscape:export-ydpi="88.831169">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3777"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4172"
+       id="radialGradient4608"
+       gradientUnits="userSpaceOnUse"
+       cx="268.32275"
+       cy="38.322758"
+       fx="268.32275"
+       fy="38.322758"
+       r="35.5" />
+    <linearGradient
+       id="linearGradient4172">
+      <stop
+         style="stop-color:#ffc900;stop-opacity:1;"
+         offset="0"
+         id="stop4174" />
+      <stop
+         style="stop-color:#ff9100;stop-opacity:1;"
+         offset="1"
+         id="stop4176" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4172-3"
+       id="radialGradient4608-0"
+       gradientUnits="userSpaceOnUse"
+       cx="268.32275"
+       cy="38.322758"
+       fx="268.32275"
+       fy="38.322758"
+       r="35.5" />
+    <linearGradient
+       id="linearGradient4172-3">
+      <stop
+         style="stop-color:#ffc900;stop-opacity:1;"
+         offset="0"
+         id="stop4174-5" />
+      <stop
+         style="stop-color:#ff9100;stop-opacity:1;"
+         offset="1"
+         id="stop4176-3" />
+    </linearGradient>
+    <radialGradient
+       r="35.5"
+       fy="38.322758"
+       fx="268.32275"
+       cy="38.322758"
+       cx="268.32275"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3328"
+       xlink:href="#linearGradient4172-3"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ff9100"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="624.05614"
+     inkscape:cy="65.746291"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="835"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-112.63833,-393.81307)">
+    <circle
+       transform="matrix(2.0911145,0,0,2.0911145,-395.59708,364.37478)"
+       id="path4510"
+       style="fill:url(#radialGradient3328);fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/nicolas/ange.dk-new/favicon/favicon-192x192.png"
+       inkscape:export-xdpi="118.05051"
+       inkscape:export-ydpi="118.05051"
+       cx="280"
+       cy="50"
+       r="35" />
+    <g
+       transform="matrix(1.7,0,0,1.7,-68.65192,306.86724)"
+       style="display:inline;fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:1"
+       id="g3762">
+      <ellipse
+         inkscape:export-ydpi="100"
+         inkscape:export-xdpi="100"
+         inkscape:export-filename="/home/nicolas/Desktop/logosimple.png"
+         transform="matrix(0.5609655,0,0,0.5609655,-17.449866,-199.43026)"
+         id="path2336"
+         style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:4.4215107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         cx="301.73322"
+         cy="526.05652"
+         rx="78.312439"
+         ry="77.160782" />
+      <path
+         inkscape:connector-curvature="0"
+         style="font-size:48px;display:inline;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.3159194;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:none"
+         d="m 150.77649,116.5405 c 7.53443,-0.073 4.72781,-7.23839 3.41862,-11.79919 -0.92132,-3.36143 -2.52527,-5.378002 -2.35704,-7.870204 0.78875,-3.130752 0.85517,-4.325615 -0.92223,-5.043283 -3.22157,-1.476507 -6.17883,-1.428881 -8.67972,-7.395756 -2.05016,-4.129297 -3.26829,-10.65019 -9.25068,-9.522183"
+         id="path2160"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="/home/nicolas/0work/ange/logo/faces.ico"
+         inkscape:export-xdpi="1.3374089"
+         inkscape:export-ydpi="1.3374089" />
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/nicolas/0work/ange/logo/faces.ico"
+         style="font-size:48px;display:inline;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:3.3159194;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.0999999;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:none"
+         d="m 163.16588,116.55782 c 7.53452,-0.073 4.72784,-7.2384 3.41868,-11.79921 -0.92132,-3.36142 -2.52527,-5.378 -2.35706,-7.870183 0.78877,-3.130765 0.85517,-4.325628 -0.92223,-5.043296 -3.22152,-1.476514 -6.17881,-1.428875 -8.67969,-7.395743 -2.05019,-4.12931 -3.26833,-10.650209 -9.25071,-9.522209"
+         id="path2162"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-xdpi="1.3374089"
+         inkscape:export-ydpi="1.3374089" />
+      <text
+         id="text3703"
+         y="56.157806"
+         x="133.14491"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="56.157806"
+           x="133.14491"
+           id="tspan3705"
+           sodipodi:role="line"
+           style="font-size:40px;line-height:1.25"> </tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot830"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Good Times';-inkscape-font-specification:'Good Times';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(124.64666,381.20603)"><flowRegion
+         id="flowRegion832"><rect
+           id="rect834"
+           width="640.71429"
+           height="141.42857"
+           x="157.14285"
+           y="21.142857" /></flowRegion><flowPara
+         id="flowPara836"
+         style="font-size:53.33333206px;fill:#ffffff;fill-opacity:1">Ange </flowPara><flowPara
+         style="font-size:53.33333206px;fill:#ffffff;fill-opacity:1"
+         id="flowPara838">Analytics</flowPara></flowRoot>  </g>
+</svg>
